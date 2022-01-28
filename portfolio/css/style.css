@@ -226,7 +226,7 @@ li {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #447780;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
@@ -245,13 +245,13 @@ li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #ff7b00;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px solid #ff7b00;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -263,14 +263,14 @@ li {
   position: absolute;
   top: 50%;
   left: 50%;
-  background : #FFF;
+  background : rgb(255, 255, 255);
   opacity: 0;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
   transition: .2s;
   z-index: -1;
 }
 .btn-open:hover{
-  color: #9ec34b;
+  color: #283804;
 }
 .btn-open:hover:after{
   height: 240%;
@@ -286,7 +286,7 @@ li {
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #9ec34b;
+  color: #e44848;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
@@ -297,7 +297,7 @@ li {
 
 .btn-box:hover {
   border: 2px solid transparent;
-  color: #000;
+  color: rgb(0, 0, 255);
 }
 
 .btn-box:before, .btn-box:after {
@@ -314,14 +314,14 @@ li {
 }
 
 .btn-box:before {
-  border-bottom: 2px solid #000;
-  border-left: 2px solid #000;
+  border-bottom: 2px solid rgb(0, 255, 255);
+  border-left: 2px solid rgb(0, 255, 255);
   transform-origin: 100% 0%;
 }
 
 .btn-box:after {
-  border-top: 2px solid #000;
-  border-right: 2px solid #000;
+  border-top: 2px solid rgb(0, 255, 255);
+  border-right: 2px solid rgb(0, 255, 255);
   transform-origin: 0% 100%;
 }
 
